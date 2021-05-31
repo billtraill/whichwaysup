@@ -1,6 +1,5 @@
-# SPDX-FileCopyrightText: 2020 Bryan Siepert, written for Adafruit Industries
-#
-# SPDX-License-Identifier: Unlicense
+#! /usr/bin/python3
+# Based on example code from Adafuit
 import web
 import time
 import board
