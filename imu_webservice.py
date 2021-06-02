@@ -60,7 +60,7 @@ class hello:
         else:
             shake = '"shake": false'
 
-        print('game_quaternione: %s, shake: %s ' % (game_quaternione, shake))
+        #print('game_quaternione: %s, shake: %s ' % (game_quaternione, shake))
         return '{%s,%s,%s,%s,%s}' % (acceleration, gyro, magnetometer, game_quaternione, shake)
         # return '{"quaternione":[%f,%f,%f]}'%(1.0,1.0,1.0)
 
